@@ -205,7 +205,7 @@ def search():
     print()
     if s==1:
         from PIL import Image
-        img=Image.open(r"C:\Users\User\Downloads\movies.jpg")
+        img=Image.open(r"C:\Users\User\Python 11th and 12th\movies.jpg")
         img.show()
         cursor.execute("select * from movies")
         movietable()
@@ -247,7 +247,7 @@ def search():
     
 def book_ticket():
     from PIL import Image
-    img=Image.open(r"C:\Users\User\Downloads\movies.jpg")
+    img=Image.open(r"C:\Users\User\Python 11th and 12th\movies.jpg")
     img.show()
     movie=None
     cursor.execute("select * from movies")
@@ -691,9 +691,9 @@ def shows():
      
         
 #################################################################################################################################################
-#from PIL import Image
-#img=Image.open(r"C:\Users\User\Pictures\logo.jpg")
-#img.show()
+from PIL import Image
+img=Image.open(r"C:\Users\User\Python 11th and 12th\image.png")
+img.show()
 main_menu() 
 
 
